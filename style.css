@@ -2,6 +2,61 @@ body {
     margin: 0px;
 }
 
+:root {
+    --ci1: #33658A;
+    --ci2: #86BBD8;
+    --ci3: #758E4F;
+    --ci4: #F6AE2D;
+    --ci5: #F26419;
+    --link: var(--ci1);
+    --link-hover: var(--ci2);
+    --btn-bg: var(--ci1);
+    --btn-bg-hover: var(--ci2);
+    --nav-link: var(--ci1);
+    --nav-hover: var(--ci2);
+    --bg-color: #fff;
+    --text-color: #242C5B;
+    --box-shadow: 0 0 0 1px rgba(0, 0, 0, .04), 0 2px 4px 0 rgba(0, 0, 0, .08);
+    --round: 5px;
+    --pmr-font: var(--font-Prompt), -apple-system, BlinkMacSystemFont, "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --txt-font: var(--font-anuphan);
+}
+#Div_desc_home{
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    width: 610px;
+    height: 280px;
+    z-index: 2;
+}
+#desc_home{
+    font-size: 150px;
+    line-height: 1;
+    font-weight: 900;
+}
+#desc_home_red{
+    color: #DC3F50;
+}
+#btn_home{
+    display: flex;
+    justify-content: center;
+    background-color:#DC3F50;
+    text-align: center;
+    border-radius: 50px;
+    width: 15em;
+    margin-top:1.5em;
+    padding: 20px;
+}
+#btn_home b{
+    margin: auto;
+    vertical-align: middle;
+    font-size: 25px;
+    
+}
+#btn_home img{
+    margin: auto;
+    width: 1.5em;
+}
 .container {
     position: fixed;
     width: 100%;
