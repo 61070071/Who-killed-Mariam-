@@ -1,1 +1,9 @@
-body {}
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(243, 210, 219);
+    background: linear-gradient(360deg, rgba(243, 210, 219, 1) 0%, rgba(230, 233, 246, 1) 100%);
+    background-repeat: no-repeat;
+}
