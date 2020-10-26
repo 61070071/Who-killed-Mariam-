@@ -95,8 +95,8 @@ body {
 #sand {
     position: fixed;
     z-index: 2;
-    animation: wave 2s cubic-bezier(0.42, 0, 0.58, 1.0) 0s infinite alternate both;
-    animation-iteration-count: infinite;
+    /* animation: wave 2s cubic-bezier(0.42, 0, 0.58, 1.0) 0s infinite alternate both;
+    animation-iteration-count: infinite; */
 }
 
 #water {
