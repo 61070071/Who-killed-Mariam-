@@ -50,6 +50,10 @@ body {
     width: 15em;
     margin: -3.5em 0px 0px 25px;
     padding: 20px;
+    transition: 0.5s;
+}
+#btn_home:hover {
+    background-color:#F5D26A;
 }
 
 #btn_home b {
