@@ -299,3 +299,19 @@ body {
         transform: translateX(0px)rotate(0deg);
     }
 }
+
+
+/* -------------- Pages ------------- */
+
+
+/* #p1 {
+    background-color: #A2A7D1;
+    z-index: 6;
+    position: absolute;
+} */
+
+#p2 {
+    background-color: #A2A7D1;
+    z-index: 6;
+    position: relative;
+}
