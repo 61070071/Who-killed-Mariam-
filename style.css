@@ -21,6 +21,20 @@ body {
     --round: 5px;
     --pmr-font: var(--font-Prompt), -apple-system, BlinkMacSystemFont, "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --txt-font: var(--font-anuphan);
+    --c1:#F3D2DB;
+	--d1: 0.20;
+	
+	--c2: #DC3F50;
+	--d2: 0.80;
+	
+	
+	/* Rotation points for shades */
+	--p2: calc(var(--d1) + var(--d2));
+	--p3: calc(var(--p2) + var(--d3));
+	
+	/* Chart sizing */
+	--w: 470px;
+	--w14: calc(var(--w) / -4);
 }
 
 #div_desc_home {
@@ -97,8 +111,83 @@ body {
 .decoration {
     width: 50%;
 }
+/*  ---------------- Pie Chart ---------------- */
 
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
+h1 {
+	font: 2em "Ubuntu", sans-serif;
+	flex-basis: 100%;
+    line-height: 1.5;
+    margin-bottom: 0.75em;
+	text-align: center;
+}
+ul {
+	list-style: none;
+	margin: 0 0 1.5em 1.5em;
+}
+.data {
+	background-color: #000;
+	background-image:
+		conic-gradient(
+			var(--c1) 0 calc(100% * var(--d1)), 
+			var(--c2) 0 calc(100% * var(--p2))
+		);
+	border-radius: 50%;
+	margin: 0 0 1.5em 0;
+	position: relative;
+	width: var(--w);
+	height: var(--w);
+}
+.data li {
+	color: #fff;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.data li:nth-of-type(1) {
+	--r: var(--d1)/2;
+	transform: rotate(calc(360deg * var(--r))) translateY(var(--w14)) rotate(calc(-360deg * var(--r)));
+}
+.data li:nth-of-type(2) {
+	--r: calc(var(--d1) + var(--d2)/2);
+	transform: rotate(calc(360deg * var(--r))) translateY(var(--w14)) rotate(calc(-360deg * var(--r)));
+}
+.data li:nth-of-type(3) {
+	--r: calc(var(--1p2) + var(--d3)/2);
+	transform: rotate(calc(360deg * var(--r))) translateY(var(--w14)) rotate(calc(-360deg * var(--r)));
+}
+.data li:nth-of-type(4) {
+	--r: calc(var(--2p3) + var(--d4)/2);
+	transform: rotate(calc(360deg * var(--r))) translateY(var(--w14)) rotate(calc(-360deg * var(--r)));
+}
+.key li:before {
+	content: "";
+	display: inline-block;
+	margin-right: 0.375em;
+	vertical-align: middle;
+	width: 1em;
+	height: 1em;
+}
+.key li:nth-of-type(1):before {
+	background: var(--c1);
+}
+.key li:nth-of-type(2):before {
+	background: var(--c2);
+}
+.key li:nth-of-type(3):before {
+	background: var(--c3);
+}
+.key li:nth-of-type(4):before {
+	background: var(--c4);
+}
 /*  ---------------- Home Asset ---------------- */
 
 #sand {
@@ -478,7 +567,7 @@ body {
 #bg_undersea{
     position: relative;
     width: 100%;
-    height: 200vh;
+    height: 280vh;
     background: red; /* fallback color */
     background: linear-gradient( to bottom, #4BB0BA, #242C5B);
     background-repeat: no-repeat;
