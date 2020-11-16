@@ -185,8 +185,6 @@ body {
     bottom: 4%;
 }
 
-.decoration {}
-
 
 /* ---------------- Home Asset ---------------- */
 
@@ -323,6 +321,19 @@ body {
     width: 100%;    
     height: 85vh;
     background-color: #242C5B;
+    z-index: 8;
+}
+#p3{
+    position: relative;
+    width: 100%;    
+    height: 85vh;
+
+    background-color: #E6EAF5;
+}
+#p3_bg{
+    width: 100%;
+    position: absolute;
+    top: 0%;
 }
 .paragraph_center{
     text-align: center;
@@ -467,6 +478,13 @@ body {
     background: linear-gradient( to bottom, #4BB0BA, #242C5B);
     background-repeat: no-repeat;
     background-size: cover;
+}
+#thailand{
+    position: absolute;
+    z-index: 7;
+    top: 0%;
+    right: 0%;
+    width: 80%;
 }
 /* floating */
 
