@@ -77,6 +77,10 @@ body {
 #img_text_page2_part2{
     width: 830px;
 }
+#img_text_page3_part2{
+    font-size: 32px; 
+    font-family: var(--txt-font);
+}
 .container {
     width: 100%;
     height: 100vh;
