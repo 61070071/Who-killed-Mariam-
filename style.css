@@ -678,3 +678,136 @@ ul {
         opacity: 0;
     }
 }
+
+/* floating2 */
+
+#bubble21, #bubble22, #bubble23, #bubble24, #bubble25,
+#bubble26, #bubble27, #bubble28, #bubble29, #bubble20,
+#triangle1, #triangle2, #triangle3, #triangle4, #triangle5,
+#triangle6, #triangle7, #triangle8, #triangle9, #triangle0 {
+    position: absolute;
+    z-index: 6;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 0%
+}
+#bubble21{
+    left: 66%;
+    animation-duration: 17s;
+}
+#bubble22{
+    left: 51%;
+    animation-duration: 14s;
+}
+#bubble23{
+    left: 14%;
+    animation-duration: 19s;
+}
+#bubble24{
+    left: 27%;
+    animation-duration: 13s;
+}
+#bubble25{
+    left: 33%;
+    animation-duration: 18.5s;
+}
+#bubble26{
+    left: 7%;
+    animation-duration: 15.5s;
+}
+#bubble27{
+    left: 41%;
+    animation-duration: 17.5s;
+}
+#bubble28{
+    left: 74%;
+    animation-duration: 12s;
+}
+#bubble29{
+    left: 86%;
+    animation-duration: 16.5s;
+}
+#bubble20{
+    left: 97%;
+    animation-duration: 13.5s;
+}
+
+
+#triangle1{
+    left: 66%;
+    animation-duration: 25s;
+}
+#triangle2{
+    width: 43.82px;
+    height: 32.32px;
+    left: 22%;
+    transform: rotate(-53deg);
+    animation-duration: 21.5s;
+}
+#triangle3{
+    left: 82%;
+    transform: rotate(-166deg);
+    animation-duration: 24s;
+}
+#triangle4{
+    left: 36%;
+    transform: rotate(54deg);
+    animation-duration: 26.5s;
+}
+#triangle5{
+    width: 43.82px;
+    height: 32.32px;
+    left: 43%;
+    transform: rotate(30deg);
+    animation-duration: 23s;
+}
+#triangle6{
+    left: 8%;
+    transform: rotate(-43deg);
+    animation-duration: 25s;
+}
+#triangle7{
+    width: 19.25px;
+    height: 14.2px;
+    left: 20%;
+    transform: rotate(-166deg);
+    animation-duration: 19s;
+}
+#triangle8{
+    width: 19.25px;
+    height: 14.2px;
+    left: 40%;
+    transform: rotate(-52deg);
+    animation-duration: 18s;
+}
+#triangle9{
+    width: 19.25px;
+    height: 14.2px;
+    left: 60%;
+    transform: rotate(42deg);
+    animation-duration: 17s;
+}
+#triangle0{
+    width: 19.25px;
+    height: 14.2px;
+    left: 80%;
+    transform: rotate(61deg);
+    animation-duration: 20s;
+}
+
+@keyframes float {
+    0% {
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        transform: translatey(-2680px);
+        opacity: 0;
+    }
+}
