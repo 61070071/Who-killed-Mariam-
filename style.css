@@ -74,6 +74,9 @@ body {
 #span_text_page2_part3{
     font-size: 20.5px;
 }
+#img_text_page2_part2{
+    width: 830px;
+}
 .container {
     width: 100%;
     height: 100vh;
@@ -313,13 +316,27 @@ body {
     background-color: #A2A7D1;
     z-index: 6;
     position: relative;
-    height: 170vh;
+    height: 200vh;
 }
 #p2{
     position: relative;
     width: 100%;    
     height: 85vh;
     background-color: #242C5B;
+}
+.paragraph_center{
+    text-align: center;
+    color:white;
+}
+.paragraph_left{
+    text-align: left;
+    color:white;
+}
+#head_text_p3{
+    color: #F5D26A;
+}
+#Second_text_p3{
+    font-size: 95px;
 }
 #wave1{
     z-index: 6;
@@ -432,16 +449,15 @@ body {
     position: absolute;
     z-index: 7;
     left: 53%;
-    bottom: 10%;
+    top: 48%;
     width: 40%;
 }
 #plastic_bag{
     position: absolute;
     z-index: 7;
     left: 8%;
-    bottom: -12%;
     width: 40%;
-
+    top: 24%;
 }
 #bg_undersea{
     position: relative;
