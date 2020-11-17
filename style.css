@@ -65,7 +65,7 @@ body {
     background-color: #DC3F50;
     text-align: center;
     border-radius: 50px;
-    width: 310px;
+    width: 340px;
     margin: -3.5em 0px 0px 25px;
     padding: 20px;
     transition: 0.5s;
@@ -89,7 +89,7 @@ body {
     font-size: 20.5px;
 }
 #img_text_page2_part2{
-    width: 830px;
+    width: 770px;
 }
 .container {
     width: 100%;
@@ -408,7 +408,7 @@ ul {
     background-color: #A2A7D1;
     z-index: 6;
     position: relative;
-    height: 200vh;
+    height: 210vh;
 }
 #p2{
     position: relative;
