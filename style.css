@@ -409,6 +409,7 @@ ul {
     z-index: 6;
     position: relative;
     height: 210vh;
+    transition: all 0.3s;
 }
 #p2{
     position: relative;
