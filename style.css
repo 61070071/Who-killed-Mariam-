@@ -35,15 +35,13 @@ body {
 
 #div_desc_home {
     position: absolute;
-    top: 16%;
+    top: 11vw;
     left: 7%;
-    width: 610px;
-    height: 280px;
+    width: 20vw;
     z-index: 6;
 }
-
-#div_desc_home img {
-    width: 616px;
+#div_desc_home img{
+    width: 30vw;
 }
 
 #desc_home {
@@ -62,10 +60,9 @@ body {
     background-color: #DC3F50;
     text-align: center;
     border-radius: 50px;
-    width: 340px;
-    margin: -3.5em 0px 0px 25px;
-    padding: 20px;
-    transition: 0.5s;
+    width: 17vw;
+    margin: -3vw 0vw 0vw 1vw;
+    padding: 1vw;
 }
 
 #btn_home:hover {
@@ -75,12 +72,12 @@ body {
 #btn_home b {
     margin: auto;
     vertical-align: middle;
-    font-size: 32px;
+    font-size: 1.6vw;
 }
 
 #btn_home img {
     margin: auto;
-    width: 1.5em;
+    width: 3vw;
 }
 
 #span_text_page2_part3 {
@@ -104,7 +101,7 @@ body {
 }
 
 .ground {
-    bottom: 100%;
+    top: 100%;
     width: 100%;
 }
 
@@ -206,86 +203,100 @@ ul {
 
 #sand {
     position: absolute;
+    top: 17.55vw;
     z-index: 2;
+    height: 35vw;
     /* animation: wave 2s cubic-bezier(0.42, 0, 0.58, 1.0) 0s infinite alternate both;
     animation-iteration-count: infinite; */
 }
 
 #water {
+    top: 17.55vw;
+    position: absolute;
     margin: 0px;
+    height: 38vw;
 }
 
 #nong {
+    width: 40vw;
     z-index: 1;
     position: absolute;
     left: 50%;
-    top: 40%;
-    animation: mymove 0.7s cubic-bezier(0.42, 0, 0.58, 1.0) 0s infinite alternate both;
+    top: 20vw;
+    /* animation: mymove 0.7s cubic-bezier(0.42, 0, 0.58, 1.0) 0s infinite alternate both; */
     animation-iteration-count: infinite;
 }
 
 #mountain {
     position: absolute;
-    left: 26.5%;
-    bottom: 62%;
+    left: 28%;
+    top: 9vw;
     z-index: 4;
+    width: 75vw;
 }
 
 #bush {
     position: absolute;
     z-index: 5;
     left: -10%;
-    bottom: -6%;
+    top: 32vw;
+    height: 23vw;
 }
 
 #plant1 {
     position: absolute;
     z-index: 4;
     left: -4%;
-    bottom: 17%;
+    top: 28vw;
+    height: 15vw;
 }
 
 #plant2 {
     position: absolute;
     z-index: 4;
-    left: 11%;
-    bottom: 2%;
+    left: 9%;
+    top: 36vw;
+    height: 15vw;
 }
 
 #bush_s {
     position: absolute;
     z-index: 5;
-    left: 20%;
-    bottom: -13%;
+    left: 21%;
+    top: 44vw;
+    height: 13vw;
 }
 
 #top_plant {
     position: absolute;
-    left: -12%;
-    bottom: 82%;
+    left: -8%;
+    top: -5vw;
     z-index: 3;
     transform-origin: top left;
     animation-name: bush_b;
     animation-duration: 8s;
     animation-iteration-count: infinite;
+    height: 15vw;
 }
 
 #palm_tree {
     position: absolute;
     z-index: 5;
     left: 63%;
-    bottom: 30%;
+    top: -10vw;
     transform-origin: bottom right;
     animation-name: bush_f;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    height: 45vw;
 }
 
 #sand_mark {
     position: absolute;
     z-index: 3;
     left: 1%;
-    bottom: 4%;
+    top: 18vw;
+    height: 30vw;
 }
 
 .place_holder {
@@ -303,13 +314,14 @@ ul {
 #cloud {
     position: absolute;
     left: 0%;
-    top: 3%;
+    top: 1.5vw;
     width: 100%;
 }
 
 #cloud_1 {
     position: relative;
     animation: wind 40s linear infinite;
+    width: 28vw;
 }
 
 #cloud_2 {
@@ -317,7 +329,8 @@ ul {
     transform: translateX(520px);
     animation: wind 35s linear infinite;
     /* margin: 60px 0px 0px 0px ; */
-    margin-top: 60px;
+    margin-top: 2vw;
+    width: 28vw;
 }
 
 
@@ -418,7 +431,9 @@ ul {
 
 
 /* -------------- Pages ------------- */
-
+#home {
+    height: 52vw;
+}
 #p1 {
     background-color: #A2A7D1;
     z-index: 6;
