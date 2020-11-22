@@ -29,7 +29,7 @@ body {
     --p2: calc(var(--d1) + var(--d2));
     --p3: calc(var(--p2) + var(--d3));
     /* Chart sizing */
-    --w: 470px;
+    --w: 25vw;
     --w14: calc(var(--w) / -4);
 }
 
@@ -64,7 +64,21 @@ body {
     margin: -3vw 0vw 0vw 1vw;
     padding: 1vw;
 }
-
+.vw-1{
+    height: 1vw !important;
+}
+.vw-2{
+    height: 2vw !important;
+}
+.vw-3{
+    height: 3vw !important;
+}
+.vw-4{
+    height: 4vw !important;
+}
+.vw-5{
+    height: 5vw !important;
+}
 #btn_home:hover {
     background-color: #F5D26A;
 }
@@ -79,15 +93,69 @@ body {
     margin: auto;
     width: 3vw;
 }
-
-#span_text_page2_part3 {
-    font-size: 20.5px;
+#text_head_p1{
+    font-size: 4.2vw;
+    font-stretch: 100%;
 }
-
-#img_text_page2_part2 {
-    width: 770px;
+#span_text_page1_part2 {
+    font-size: 1.5vw;
 }
-
+#span_text_page1_part3 {
+    font-size: 1.01vw;
+    color: #242C5B;
+}
+#span_text_page1_part4 {
+    font-size: 1.01vw;
+    color: #242C5B;
+}
+#img_text_page1_part1 {
+    height: 22.5vw;
+}
+#img_text_page1_part2 {
+    width: 50vw;
+}
+#p2_img_part3{
+    height: 40vw;
+}
+#p2_text_part3{
+    font-size: 1vw;
+}
+#p2_text_part4{
+    font-size: 2.5vw;
+}
+#p2_text_part5{
+    font-size: 1vw;
+}
+#p2_text_part6{
+    font-size: 2.5vw;
+}
+#p2_text_part7{
+    font-size: 1vw;
+}
+#p2_text_part8{
+    font-size: 2vw;
+}
+#img_text_page2_part4{
+    height: 25vw;
+}
+#text_in_pie_chart1{
+    font-size: 2vw;
+}
+#text_in_pie_chart2{
+    font-size: 3vw;
+}
+#p3_text_part1{
+    font-size: 5vw;
+    color:#242C5B;
+}
+#p3_text_part2{
+    font-size: 2vw;
+    color:#242C5B;
+}
+#p3_text_part3{
+    font-size: 1vw;
+    color:#242C5B;
+}
 .container {
     width: 100%;
     height: 100vh;
@@ -147,8 +215,8 @@ ul {
     color: #fff;
     line-height: 0;
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 12vw;
+    left: 5%;
     text-align: center;
     width: 100%;
 }
@@ -214,7 +282,7 @@ ul {
     top: 17.55vw;
     position: absolute;
     margin: 0px;
-    height: 38vw;
+    height: 36vw;
 }
 
 #nong {
@@ -438,14 +506,14 @@ ul {
     background-color: #A2A7D1;
     z-index: 6;
     position: relative;
-    height: 210vh;
+    height: 102.9vw;
     transition: all 0.3s;
 }
 
 #p2 {
     position: relative;
     width: 100%;
-    height: 83vh;
+    height: 40vw;
     background-color: #242C5B;
     z-index: 8;
 }
@@ -481,11 +549,12 @@ ul {
 }
 
 #head_text_p3 {
+    font-size: 3vw;
     color: #F5D26A;
 }
 
 #Second_text_p3 {
-    font-size: 95px;
+    font-size: 5vw;
 }
 
 #wave1 {
@@ -509,93 +578,100 @@ ul {
     top: 80%;
 }
 
-.ground_p1 {
-    bottom: 200%;
-    width: 100%;
-}
-
 #sand_ground1 {
     position: absolute;
-    z-index: 6;
+    z-index: 8;
     left: 35.5%;
-    bottom: 0%;
+    top: 96vw;
+    height: 7vw;
 }
 
 #sand_ground2 {
     position: absolute;
     z-index: 5;
-    left: 16%;
-    bottom: 2%;
+    left: 13.5%;
+    top: 92vw;
+    height: 8vw;
 }
 
 #sand_ground3 {
     position: absolute;
-    z-index: 6;
+    z-index: 7;
     left: 0%;
-    bottom: 0%;
+    top: 98vw;
+    height: 5vw;
 }
 
 #plant {
     position: absolute;
     z-index: 7;
     left: 3%;
-    bottom: 2%;
+    top: 70vw;
+    height: 30vw;
 }
 
 #seaplant {
     position: absolute;
     z-index: 7;
     left: 22%;
-    bottom: 3%;
+    top: 89vw;
+    height: 11vw;
 }
 
 #seaplant2 {
     position: absolute;
     z-index: 7;
     left: 40%;
-    bottom: 2%;
+    top: 85vw;
+    height: 16vw;
 }
 
 #seaplant3 {
     position: absolute;
-    z-index: 6;
+    z-index: 5 ;
     left: 70%;
-    bottom: 6%;
+    top: 89vw;
+    height: 8vw;
 }
 
 #seaweed1 {
     position: absolute;
     z-index: 5;
     left: 60%;
-    bottom: 2%;
+    top: 86vw;
+    height: 15vw;
 }
 
 #seaweed2 {
     position: absolute;
     z-index: 5;
-    left: 78%;
-    bottom: 0%;
+    left: 80%;
+    top: 86vw;
+    height: 15vw;
 }
 
 #seaweed3 {
     position: absolute;
     z-index: 5;
-    left: 90%;
-    bottom: 0%;
+    left: 89%;
+    top:86vw;
+    height: 15vw;
 }
 
 #seaweed4 {
     position: absolute;
     z-index: 5;
-    left: 93.1%;
-    bottom: -1%;
+    left: 92%;
+    top: 86vw;
+    height: 15vw;
 }
 
 #stone {
     position: absolute;
-    z-index: 7;
-    left: 53%;
-    bottom: 1%;
+    z-index: 8;
+    left: 53%; 
+    top: 97vw;
+    height: 4vw;
 }
 
 #mariam_p2 {
@@ -619,13 +695,14 @@ ul {
 #bg_undersea {
     position: relative;
     width: 100%;
-    height: 280vh;
+    height: 130vw;
     background: red;
     /* fallback color */
     background: linear-gradient( to bottom, #4BB0BA, #242C5B);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 #thailand {
     position: absolute;
@@ -914,7 +991,7 @@ ul {
 }
 .scale{
     position:absolute;
-    width: 57px;
+    width: 3%;
     background-color: #ffffff;
     border-radius: 50px;
     bottom:0%;
@@ -928,9 +1005,10 @@ ul {
 
 #seaweed41{
     position:absolute;
-    top:69%;
+    top:34.5vw;
     left:1%;
     z-index: 5;
+    height: 9.8vw;
 }
 
 #s1,
@@ -938,8 +1016,9 @@ ul {
 #s3,
 #s4{
     position:absolute;
-    top:75%;
+    top:37.5vw;
     z-index: 5;
+    height: 7vw;
 }
 #s1{
     left: 8%;
@@ -956,29 +1035,32 @@ ul {
 
 #sand41{
     position:absolute;
-    top: 73%;
+    top: 37vw;
     left:18.5%;
     z-index: 5;
+    height: 7.6vw;
 }
 
 #sand42{
     position:absolute;
-    top: 74%;
+    top: 37vw;
     right:0%;
     z-index: 5;
+    height: 7vw;
 }
 
 #seaweed42{
     position:absolute;
-    top:58.5%;
+    top:28.2vw;
     right: 5%;
     z-index: 5;
+    height: 13.7vw;
 }
 
 #year1{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 21.5%;
     z-index: 9;
@@ -986,7 +1068,7 @@ ul {
 #year2{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 26.5%;
     z-index: 9;
@@ -994,7 +1076,7 @@ ul {
 #year3{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 31.5%;
     z-index: 9;
@@ -1002,7 +1084,7 @@ ul {
 #year4{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 36.5%;
     z-index: 9;
@@ -1010,7 +1092,7 @@ ul {
 #year5{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 41.5%;
     z-index: 9;
@@ -1018,7 +1100,7 @@ ul {
 #year6{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 46.5%;
     z-index: 9;
@@ -1026,7 +1108,7 @@ ul {
 #year7{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 51.5%;
     z-index: 9;
@@ -1034,7 +1116,7 @@ ul {
 #year8{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 56.5%;
     z-index: 9;
@@ -1042,7 +1124,7 @@ ul {
 #year9{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 61.5%;
     z-index: 9;
@@ -1050,7 +1132,7 @@ ul {
 #year10{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 66.5%;
     z-index: 9;
@@ -1058,7 +1140,7 @@ ul {
 #year11{
     position:absolute;
     color: #ffffff; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 71.5%;
     z-index: 9;
@@ -1066,7 +1148,7 @@ ul {
 #year12{
     position:absolute;
     color: #F5D26A; 
-    font-size: 32px;
+    font-size: 1.7vw;
     top:44.5vw;
     left: 76.5%;
     z-index: 9;
