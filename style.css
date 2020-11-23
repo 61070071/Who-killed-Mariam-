@@ -865,6 +865,30 @@ ul {
     right: 0%;
     width: 80%;
 }
+#red_placeholder{
+    position: absolute;
+    z-index: 8;
+    width: 4vw;
+
+}
+#red_placeholder:hover +  #placeholder_desc{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 71vw;
+    opacity: 1;
+    transition: 1s;
+}
+#placeholder_desc{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 71vw;
+    opacity: 0;
+    transition: 1s;
+}
 
 #p5_content_1 {
     position: absolute;
