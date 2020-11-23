@@ -1038,6 +1038,20 @@ ul {
     
 
 }
+#driver_1{
+    position: absolute;
+    top: 80vw;
+    z-index: 10;
+    width: 10%;
+    left: 12%;
+}
+#driver_2{
+    position: absolute;
+    top: 45vw;
+    z-index: 10;
+    width: 10%;
+    left: 69%;
+}
 #sand_area {
     position: absolute;
     top: 58vw;
