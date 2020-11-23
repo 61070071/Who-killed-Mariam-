@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165" height="101" viewBox="0 0 165 101">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_198" data-name="Rectangle 198" width="165" height="101" transform="translate(219 16478)" fill="#4bb0ba"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="50.785" height="38.059" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="11.321" height="75.075" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-219 -16478)" clip-path="url(#clip-path)">
+    <g id="Group_495" data-name="Group 495">
+      <g id="Repeat_Grid_31" data-name="Repeat Grid 31" transform="translate(340.15 16536.965)" clip-path="url(#clip-path-2)">
+        <g id="Group_337" data-name="Group 337">
+          <path id="Path_1033" data-name="Path 1033" d="M13.223,0s13.193,10.365-6.6,32.193S18.09,59.829,13.694,73.179H30.812a150.546,150.546,0,0,1-17.446-25.6C5.538,33.282,31.6,23.553,13.223,0Z" transform="matrix(1, 0.017, -0.017, 1, 1.277, 0)" fill="#5967af"/>
+          <path id="Path_1035" data-name="Path 1035" d="M17.589,0S4.4,10.365,24.186,32.193,12.722,59.829,17.119,73.179H0a150.547,150.547,0,0,0,17.446-25.6C25.274,33.282-.784,23.553,17.589,0Z" transform="matrix(1, 0.017, -0.017, 1, 19.977, 0.326)" fill="#858fc7"/>
+          <path id="Path_1034" data-name="Path 1034" d="M3.422,71.846H22.737S21.482,44.6,10.175,27.8,13.082,0,13.082,0-.9,7.537.045,26.852,22.58,45.543,3.422,71.846Z" transform="matrix(1, 0.017, -0.017, 1, 12.727, 1.827)" fill="#858fc7"/>
+        </g>
+      </g>
+      <ellipse id="Ellipse_675" data-name="Ellipse 675" cx="39" cy="38" rx="39" ry="38" transform="translate(249 16531)" fill="#f3d2db"/>
+      <path id="Path_2019" data-name="Path 2019" d="M-5715.774,16522.535l41.295-23.623,41.7,29.3s3.182-44.418-41.7-44.939S-5715.774,16522.535-5715.774,16522.535Z" transform="translate(5962.289 44.644)" fill="#242c5b"/>
+      <circle id="Ellipse_676" data-name="Ellipse 676" cx="3.5" cy="3.5" r="3.5" transform="translate(269 16568)" fill="#242c5b"/>
+      <circle id="Ellipse_677" data-name="Ellipse 677" cx="3.5" cy="3.5" r="3.5" transform="translate(298 16568)" fill="#242c5b"/>
+      <path id="Path_2021" data-name="Path 2021" d="M-5650.1,16538.2l-2.294,5.643,4.774,20.8-8.524-2.7" transform="translate(5938.16 22.444)" fill="none" stroke="#d5795f" stroke-width="1"/>
+      <path id="Path_2020" data-name="Path 2020" d="M-5711.14,16541.688c1.405-2.414,76.814-.732,76.814-.732s-.979,22.551-24.941,22.678c-5.571-.127-15.429-4.473-16.434-14.572.227,8.607-8.628,16.631-19.806,14.572S-5712.545,16544.1-5711.14,16541.688Z" transform="translate(5960.471 21.561)" fill="#fff" opacity="0.692"/>
+      <rect id="Rectangle_197" data-name="Rectangle 197" width="11" height="82" rx="3" transform="translate(240 16500)" fill="#fff"/>
+      <g id="Repeat_Grid_30" data-name="Repeat Grid 30" transform="translate(239.5 16504.516)" clip-path="url(#clip-path-3)">
+        <g transform="translate(-303.5 -16435)">
+          <line id="Line_179" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+        <g transform="translate(-303.5 -16425)">
+          <line id="Line_179-2" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+        <g transform="translate(-303.5 -16415)">
+          <line id="Line_179-3" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+        <g transform="translate(-303.5 -16405)">
+          <line id="Line_179-4" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+        <g transform="translate(-303.5 -16395)">
+          <line id="Line_179-5" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+        <g transform="translate(-303.5 -16385)">
+          <line id="Line_179-6" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+        <g transform="translate(-303.5 -16375)">
+          <line id="Line_179-7" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+        <g transform="translate(-303.5 -16365)">
+          <line id="Line_179-8" data-name="Line 179" x2="19" transform="translate(303.5 16435.5)" fill="none" stroke="#252d58" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
