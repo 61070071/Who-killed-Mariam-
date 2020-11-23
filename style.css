@@ -128,7 +128,7 @@ body {
 }
 
 #img_text_page1_part2 {
-    width: 50vw;
+    width: 45vw;
 }
 
 #p2_img_part3 {
@@ -1047,10 +1047,10 @@ ul {
 }
 #driver_2{
     position: absolute;
-    top: 45vw;
+    top: 53vw;
     z-index: 10;
     width: 10%;
-    left: 69%;
+    left: 50%;
 }
 #sand_area {
     position: absolute;
