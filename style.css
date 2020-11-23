@@ -655,6 +655,20 @@ ul {
     background-size: cover;
 }
 
+#p7 {
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    background-color: #F3D2DB;
+}
+
+#p7_1 {
+    position: relative;
+    width: 100%;
+    height: 100vw;
+    background-color: #4BB0BA
+}
+
 #p8 {
     position: relative;
     width: 100%;
@@ -920,6 +934,68 @@ ul {
     position: relative;
     z-index: 9;
     top: 22vw;
+}
+
+#sand_p7 {
+    position: absolute;
+    top: 29.8vw;
+    z-index: 9;
+    width: 100%;
+}
+
+#sand_right_p7 {
+    position: absolute;
+    top: 37vw;
+    z-index: 10;
+    width: 10%;
+    right: -2%;
+}
+
+#water_p7 {
+    position: absolute;
+    top: 36vw;
+    z-index: 9;
+    width: 100%;
+}
+
+#plant_p7 {
+    position: absolute;
+    top: 37.5vw;
+    z-index: 10;
+    width: 9%;
+    right: -4%;
+}
+
+#mountain_p7 {
+    position: absolute;
+    top: 22.1vw;
+    z-index: 10;
+    width: 55%;
+    left: -8%;
+}
+
+#tree_p7 {
+    position: absolute;
+    top: 9vw;
+    z-index: 10;
+    width: 30%;
+    left: -8%;
+}
+
+#left_plant1_p7 {
+    position: absolute;
+    top: 26vw;
+    z-index: 11;
+    width: 22%;
+    left: -11%;
+}
+
+#left_plant2_p7 {
+    position: absolute;
+    top: 23.5vw;
+    z-index: 10;
+    width: 14%;
+    left: -6.5%;
 }
 
 #p8_img {
