@@ -1,5 +1,7 @@
-body {
+
+html,body {
     margin: 0px;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -87,6 +89,22 @@ body {
 }
 .vw-6 {
     height: 6vw !important;
+}
+/* =============== */
+.lh-1 {
+    line-height: 1.5vw !important;
+}
+
+.lh-2 {
+    line-height: 2vw !important;
+}
+
+.lh-3 {
+    line-height: 4vw !important;
+}
+
+.vw-4 {
+    height: 4vw !important;
 }
 
 #btn_home:hover {
@@ -372,6 +390,7 @@ ul {
 
 #water {
     top: 17.55vw;
+    left: 1%;
     position: absolute;
     margin: 0px;
     height: 36vw;
