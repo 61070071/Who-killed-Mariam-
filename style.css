@@ -1693,3 +1693,46 @@ ul {
     height: 23vw;
     z-index: 4;
 }
+/*  page6 part3 */
+#ground_p6_part3{
+    position: absolute;
+    top: 27.5vw;
+    left: -5%;
+    height: 5vw;
+    z-index: 5;
+}
+#seaweed_p6_part3_1{
+    position: absolute;
+    top: 26vw;
+    left: 60%;
+    height: 6vw;
+    z-index: 4;
+}
+#seaweed_p6_part3_2{
+    position: absolute;
+    top: 20vw;
+    left: 32%;
+    height: 10vw;
+    z-index: 4;
+}
+#seaweed_p6_part3_3{
+    position: absolute;
+    top: 22vw;
+    left: 17%;
+    height: 9vw;
+    z-index: 4;
+}
+#seaweed_p6_part3_4{
+    position: absolute;
+    top: 23vw;
+    left: 90%;
+    height: 9vw;
+    z-index: 4;
+}
+#seaweed_p6_part3_5{
+    position: absolute;
+    top: 24.5vw;
+    left: 5%;
+    height: 5vw;
+    z-index: 4;
+}
