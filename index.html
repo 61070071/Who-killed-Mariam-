@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Who Killed Mariam</title>
@@ -14,6 +15,18 @@
 
 <body>
     <div class="container" id="home">
+        <div id="progress_bar_page1" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class="active"><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
         <div id="div_desc_home">
             <img src="Asset/ใครฆ่ามาเรียม.png">
             <a href="#p1">
@@ -47,6 +60,30 @@
         </div>
     </div>
     <div class="container padding-xxl" id="p1">
+        <div id="progress_bar_page2-1" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class="active"><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page2-2" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class="active"><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
         <sp class="vw-4"></sp>
         <theboxes class="top spacing -clip">
             <box col="0.5"></box>
@@ -136,6 +173,54 @@
 
     </div>
     <div id="p2" class="t-center">
+        <div id="progress_bar_page3-1" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class="active"><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page3-2" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class="active"><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page3-3" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class="active"><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page3-4" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class="active"><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
         <sp class="vw-3"></sp>
         <span class="b9" id="head_text_p3">สาเหตุของการตายที่แท้จริงก็คือ</span>
         <br><span class="cl-white b9" id="Second_text_p3">"พลาสติก"</span>
@@ -205,13 +290,15 @@
             <sp class="vw-3"></sp>
             <box col="2">
             </box>
-            <box col="4">
+            <box col="3">
                 <inner>
-                    <ul class="data">
-                        <li id="text_in_pie_chart1">20%</li>
-                        <li id="text_in_pie_chart2" style="color: #F5D26A;">80%</li>
-                    </ul>
+                    <canvas id="myChart" width="3vw" height="3vw"></canvas>
+                    <div id="p2_text_80" class="t-right" onclick="show_page(1)"><span>จากชายฝั่ง<br><b>80%</b></span></div>
+                    <div id="p2_text_20" class="t-right" onclick="show_page(2)"><span>กิจกรรมในทะเล<br><b>20%</b></span></div>
+                    <img id="p2_img_tab" onclick="show_page(1)" src="Asset/SVG/page2/tap.svg" alt="">
                 </inner>
+            </box>
+            <box col="1">
             </box>
             <box col="5">
                 <inner>
@@ -274,8 +361,8 @@
 
         </div>
     </div>
-    <div id="p2-left">
-        <img id="img_close_p2_left" src="Asset/SVG/page2/Icon metro-cancel.svg">
+    <div id="p2_left">
+        <img id="img_close_p2_left" src="Asset/SVG/page2/Icon metro-cancel.svg" onclick="close_page()">
         <theboxes class="top spacing -clip">
             <sp class="vw-3"></sp>
             <box col="7"></box>
@@ -292,8 +379,8 @@
         <img id="img_p2_left_part2" src="Asset/SVG/page2/chaai haat-01.svg">
         <div id="ground_p2_left"></div>
     </div>
-    <div id="p2-right">
-        <img id="img_close_p2_right" src="Asset/SVG/page2/Icon metro-cancel.svg">
+    <div id="p2_right">
+        <img id="img_close_p2_right" src="Asset/SVG/page2/Icon metro-cancel.svg" onclick="close_page()">
         <theboxes class="top spacing -clip">
             <sp class="vw-3"></sp>
             <box col="1.5"></box>
@@ -311,6 +398,42 @@
         <div id="ground_p2_right"></div>
     </div>
     <div id="p3">
+        <div id="progress_bar_page4-1" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class="active"><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page4-2" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class="active"><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page4-3" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class="active"><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
         <theboxes class="top spacing -clip" style="z-index: 7;">
             <sp class="vw-5"></sp>
             <box col="1"></box>
@@ -444,6 +567,42 @@
     </div>
     <img id="cave_ceiling" src="Asset/SVG/Group 471.svg">
     <div id="p5" class="t-center">
+        <div id="progress_bar_page5-1" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class="active"><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page5-2" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class="active"><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page5-3" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class="active"><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
         <img id="lava_floor1" src="Asset/SVG/Path 1970.svg">
         <img id="lava_floor2" src="Asset/SVG/Path 1971.svg">
         <img id="seaweed_p5" src="Asset/SVG/Group 341.svg">
@@ -538,15 +697,40 @@
     </div>
 
     <div id="p6" class="t-center">
+        <div id="progress_bar_page6" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class="active"><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
         <img id="header_img1" src="Asset/SVG/page6/Group 389.svg" alt="">
         <img id="header_img2" src="Asset/SVG/page6/Group 475.svg" alt="">
-        <a><img onclick="change_page6(1)" id="r_arrow_p6" src="Asset/SVG/page6/r-arrow.svg" alt=""></a>
-        <a><img onclick="change_page6(-1)" id="l_arrow_p6" src="Asset/SVG/page6/l-arrow.svg" alt=""></a>
+        <a><img onclick="arrow_click(1)" id="r_arrow_p6" src="Asset/SVG/page6/r-arrow.svg" alt=""></a>
+        <a><img onclick="arrow_click(-1)" id="l_arrow_p6" src="Asset/SVG/page6/l-arrow.svg" alt=""></a>
         <sp class="vw-5"></sp>
         <sp class="vw-3"></sp>
         <span id="p6_text_part1" class="b9">พะยูนนั้นสำคัญอย่างไร?</span>
         <sp class="vw-6"></sp>
         <sp class="vw-3"></sp>
+        <div id="step_progress">
+            <ul class="step-1">
+                <li id="li_1" class="active" onclick="progress_click(this)">
+                    <span></span>
+                </li>
+                <li id="li_2" onclick="progress_click(this)">
+                    <span></span>
+                </li>
+                <li id="li_3" onclick="progress_click(this)">
+                    <span></span>
+                </li>
+            </ul>
+        </div>
         <div id="p6_page1">
             <img id="ground_p6" src="Asset/SVG/page6/Group_g.svg" alt="">
             <img id="back_p6" src="Asset/SVG/page6/Path 534.svg" alt="">
@@ -571,19 +755,6 @@
                     </inner>
                 </box>
             </theboxes>
-            <div id="step_progress">
-                <ul class="step-1">
-                    <li class="active">
-                        <span></span>
-                    </li>
-                    <li onclick="change_page6(1)">
-                        <span></span>
-                    </li>
-                    <li onclick="change_page6(2)">
-                        <span></span>
-                    </li>
-                </ul>
-            </div>
         </div>
         <div id="p6_page2">
             <img id="nong_p6_part2" src="Asset/SVG/page6/Group 388.svg" alt="">
@@ -602,19 +773,6 @@
                     </inner>
                 </box>
             </theboxes>
-            <div id="step_progress">
-                <ul class="step-1">
-                    <li onclick="change_page6(-1)">
-                        <span></span>
-                    </li>
-                    <li class="active">
-                        <span></span>
-                    </li>
-                    <li onclick="change_page6(1)">
-                        <span></span>
-                    </li>
-                </ul>
-            </div>
         </div>
         <div id="p6_page3">
             <img id="ground_p6_part3" src="Asset/SVG/page6/Group 488.svg" alt="">
@@ -637,24 +795,59 @@
                     </inner>
                 </box>
             </theboxes>
-            <div id="step_progress">
-                <ul class="step-1">
-                    <li onclick="change_page6(-2)">
-                        <span></span>
-                    </li>
-                    <li onclick="change_page6(-1)">
-                        <span></span>
-                    </li>
-                    <li class="active">
-                        <span></span>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
 
 
     <div id="p7">
+        <div id="progress_bar_page7-1" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class="active"><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page7-2" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class="active"><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page7-3" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class="active"><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page7-4" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class="active"><span></span></li></a>
+                <a href="#p8"><li class=""><span></span></li></a>
+            </ul>
+        </div>
         <sp class="vw-6"></sp>
         <div id="cloud_p7">
             <img id="cloud_71" src="Asset/Path 1416.png">
@@ -749,6 +942,30 @@
 
 
     <div id="p8" class="t-center">
+        <div id="progress_bar_page8-1" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class="active"><span></span></li></a>
+            </ul>
+        </div>
+        <div id="progress_bar_page8-2" class="progress_bar">
+            <ul class="step-1">
+                <a href="#home"><li class=""><span></span></li></a>
+                <a href="#p1"><li class=""><span></span></li></a>
+                <a href="#p2"><li class=""><span></span></li></a>
+                <a href="#p3"><li class=""><span></span></li></a>
+                <a href="#p5"><li class=""><span></span></li></a>
+                <a href="#p6"><li class=""><span></span></li></a>
+                <a href="#p7"><li class=""><span></span></li></a>
+                <a href="#p8"><li class="active"><span></span></li></a>
+            </ul>
+        </div>
         <div class="t-center">
             <span class="b8" id="head_text_p8">
                 ถึงเวลาแล้วหรือยัง?

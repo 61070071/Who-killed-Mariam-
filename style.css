@@ -197,6 +197,7 @@ body {
     top: 2vw;
     left: 94%;
     height: 3vw;
+    z-index: 6;
 }
 
 #ground_p2_left {
@@ -223,7 +224,34 @@ body {
     z-index: 1;
     height: 23vw;
 }
-
+#p2_text_80{
+    position: absolute;
+    top: 9vw;
+    left: 10%;
+    font-size: 2vw;
+    color: #F5D26A;
+    font-weight: 900;
+}
+#p2_text_80 b{ 
+    font-size: 3vw;
+}
+#p2_text_20{
+    position: absolute;
+    top: 11.5vw;
+    left: 60%;
+    font-size: 1.3vw;
+    color: #242C5B;
+    font-weight: 900;
+}
+#p2_text_20 b{ 
+    font-size: 2vw;
+}
+#p2_img_tab{
+    position: absolute;
+    top: 17vw;
+    left: 23%;
+    height: 2vw;
+}
 
 /* ------ element page 2_right ------ */
 
@@ -232,6 +260,7 @@ body {
     top: 2vw;
     left: 4%;
     height: 3vw;
+    z-index: 6;
 }
 
 #ground_p2_right {
@@ -275,7 +304,7 @@ body {
     background: rgb(243, 210, 219);
     background: linear-gradient(360deg, rgba(243, 210, 219, 1) 0%, rgba(230, 233, 246, 1) 100%);
     background-repeat: no-repeat;
-    height: 35vh;
+    height: 36vh;
 }
 
 .ground {
@@ -628,7 +657,7 @@ ul {
     background-color: #4BB0BA;
 }
 
-#p2-left {
+#p2_left {
     display: none;
     position: fixed;
     top: 0vw;
@@ -639,7 +668,7 @@ ul {
     background: linear-gradient( to bottom, #E6E8F5, #F2D3DD);
 }
 
-#p2-right {
+#p2_right {
     display: none;
     position: fixed;
     top: 0vw;
@@ -1300,7 +1329,7 @@ ul {
         opacity: 1;
     }
     100% {
-        transform: translatey(-1640px);
+        transform: translatey(-95vw);
         opacity: 0;
     }
 }
@@ -1477,7 +1506,7 @@ ul {
         opacity: 1;
     }
     100% {
-        transform: translatey(-2680px);
+        transform: translatey(-160vw);
         opacity: 0;
     }
 }
@@ -1932,17 +1961,19 @@ ul {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-/* step progress */
+
+
+/* ------- step progress ------*/
 #step_progress{
     position: absolute;
-    top: -4vw;
+    top: 19vw;
     left: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-ul{
+#step_progress ul{
     width: 28vw;
     display: flex;
     align-items: center;
@@ -1952,7 +1983,7 @@ ul{
     margin: 0px 0px 50px 0px;
     position: relative;
 }
-ul::before{
+#step_progress ul::before{
     content: '';
     width: 100%;
     height: 0.1vw;
@@ -1961,7 +1992,7 @@ ul::before{
     position: absolute;
     z-index: -2;
 }
-ul::after{
+#step_progress ul::after{
     content: '';
     height: 0.2vw;
     display: block;
@@ -1969,16 +2000,16 @@ ul::after{
     position: absolute;
     z-index: -1;
 }
-ul.step-1::after{
+#step_progress ul.step-1::after{
     width: 0%;
 }
-ul.step-2::after{
+#step_progress ul.step-2::after{
     width: 50%;
 }
-ul.step-3::after{
+#step_progress ul.step-3::after{
     width: 100%;
 }
-ul li span{
+#step_progress ul li span{
     width: 1vw;
     height: 1vw;
     display: flex;
@@ -1989,10 +2020,257 @@ ul li span{
     border: 0.15vw solid #707070;
     font-weight: bold;
 }
-ul li.active span{
+#step_progress ul li.active span{
     width: 1.5vw;
     height: 1.5vw;
     background: #242C5B;
     border: 0.2vw solid #707070;
     /* box-shadow : 0px 0px 10px #707070; */
+}
+
+/* ------- progress bar page ------*/
+#progress_bar_page1{
+    position: absolute;
+    top: 19vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page2-1{
+    position: absolute;
+    top: 15vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page2-2{
+    position: absolute;
+    top: 55vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page3-1{
+    position: absolute;
+    top: 19vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page3-2{
+    position: absolute;
+    top: 63vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page3-3{
+    position: absolute;
+    top: 105vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page3-4{
+    position: absolute;
+    top: 140vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page4-1{
+    position: absolute;
+    top: 19vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page4-2{
+    position: absolute;
+    top: 65vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page4-3{
+    position: absolute;
+    top: 117vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page5-1{
+    position: absolute;
+    top: 35vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page5-2{
+    position: absolute;
+    top: 65vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page5-3{
+    position: absolute;
+    top: 103vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page6{
+    position: absolute;
+    top: 23vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page7-1{
+    position: absolute;
+    top: 25vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page7-2{
+    position: absolute;
+    top: 65vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page7-3{
+    position: absolute;
+    top: 118vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page7-4{
+    position: absolute;
+    top: 155vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page8-1{
+    position: absolute;
+    top: 10vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+#progress_bar_page8-2{
+    position: absolute;
+    top: 70vw;
+    left: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 12;
+}
+
+.progress_bar ul{
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px 0px 50px 0px;
+    position: relative;
+    flex-direction: column;
+}
+/* ------ style progress page ------ */
+.progress_bar ul.step-1::after{
+    width: 0%;
+}
+.progress_bar ul.step-2::after{
+    width: 50%;
+}
+.progress_bar ul.step-3::after{
+    width: 100%;
+}
+.progress_bar ul li span{
+    width: 0.8vw;
+    height: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#FFFFFF;
+    opacity: 25%;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.progress_bar ul li.active span{
+    background: #FFFFFF;
+    opacity: 100%;
+    /* box-shadow : 0px 0px 10px #707070; */
+}
+/*------ pie Chart ------*/
+#myChart{
+    z-index: 12;
+    /* -ms-transform: rotate(60deg);
+   -webkit-transform: rotate(60deg);
+   transform: rotate(60deg); */
 }
