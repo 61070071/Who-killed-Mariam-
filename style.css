@@ -1,5 +1,5 @@
 
-html,body {
+body {
     margin: 0px;
     max-width: 100%;
     overflow-x: hidden;
@@ -564,30 +564,12 @@ ul {
     animation-iteration-count: infinite;
 }
 
-@keyframes bush_f {
-    50% {
-        transform: translateX(-5px)rotate(-5deg);
-    }
-    100% {
-        transform: translateX(0px)rotate(0deg);
-    }
-}
-
 #plant1,
 #plant2 {
     transform-origin: bottom;
     animation-name: bush_b;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-}
-
-@keyframes bush_b {
-    50% {
-        transform: translateX(5px)rotate(5deg);
-    }
-    100% {
-        transform: translateX(0px)rotate(0deg);
-    }
 }
 
 @keyframes bush_f {
@@ -626,7 +608,7 @@ ul {
 #p2 {
     position: relative;
     width: 100%;
-    height: 40vw;
+    height: 35vw;
     background-color: #242C5B;
     z-index: 8;
 }
@@ -642,6 +624,7 @@ ul {
     position: relative;
     width: 100%;
     height: 50vw;
+    z-index: 3;
     background-color: #4BB0BA;
 }
 
@@ -672,7 +655,7 @@ ul {
     width: 100%;
     height: 153vw;
     background-color: #E6EAF5;
-    background: linear-gradient( to bottom, #242C5B, #DC3F50, #EA9140);
+    background: linear-gradient( to bottom, #242C5B 0%, #242C5B 5.2%, #DC3F50 49%, #EA9140 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -735,14 +718,14 @@ ul {
     z-index: 6;
     width: 100%;
     position: absolute;
-    top: 55%;
+    top: 40%;
 }
 
 #wave2 {
     z-index: 7;
     width: 100%;
     position: absolute;
-    top: 65%;
+    top: 56%;
 }
 
 #wave3 {
@@ -893,7 +876,7 @@ ul {
     position: absolute;
     z-index: 7;
     left: 53%;
-    top: 48%;
+    top: 42%;
     width: 40%;
     transition: 1s;
 }
@@ -903,7 +886,7 @@ ul {
     z-index: 7;
     left: 8%;
     width: 40%;
-    top: 24%;
+    top: 14%;
     transition: 1s;
 }
 
@@ -952,7 +935,7 @@ ul {
 
 #p5_content_1 {
     position: absolute;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 #p5_content_2 {
@@ -967,10 +950,10 @@ ul {
 
 #cave_ceiling {
     position: absolute;
-    z-index: 8;
-    top: 0vw;
+    top:458vw;
+    z-index: 2;
     left: -1%;
-    width: 105%;
+    width: 102%;
 }
 
 #lava_floor1 {
@@ -1043,7 +1026,31 @@ ul {
     color: #F5D26A;
     position: relative;
     z-index: 9;
-    top: 22vw;
+    top: 11.5vw;
+}
+
+/* ---------- page7 ---------*/
+
+#cloud_p7 {
+    position: absolute;
+    left: 0%;
+    top: 5vw;
+    width: 100%;
+}
+
+#cloud_71 {
+    position: relative;
+    animation: wind 40s linear infinite;
+    width: 28vw;
+}
+
+#cloud_72 {
+    position: relative;
+    transform: translateX(520px);
+    animation: wind 35s linear infinite;
+    animation-delay: -10s;
+    margin-top: 2vw;
+    width: 28vw;
 }
 
 #sand_p7 {
@@ -1119,8 +1126,9 @@ ul {
 #captured_mariam{
     position: absolute;
     top: 102vw;
+    left: 4%;
     z-index: 10;
-    width: 50%;
+    width: 45%;
     
 
 }
@@ -1135,10 +1143,10 @@ ul {
 }
 #web{
     position: absolute;
-    top: 103vw;
+    top: 103.3vw;
     z-index: 10;
-    width: 46%;
-    left: 2.5%;
+    width: 41%;
+    left: 6.5%;
     
 
 }
@@ -1829,8 +1837,8 @@ ul {
 #nong_p6{
     position: absolute;
     top: 4.2vw;
-    height: 21vw;
-    left: 12.6%;
+    height: 19vw;
+    left: 14%;
     z-index: 4;
 }
 #r_arrow_p6{
