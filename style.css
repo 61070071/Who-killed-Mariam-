@@ -514,6 +514,159 @@ ul {
 }
 
 
+#ph_1:hover + #placeholder_desc2{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 23vw;
+    left: 79.5vw;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc2{
+    display: none;
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 23vw;
+    left: 79.5vw;
+    transition: 1s;
+}
+#ph_2:hover + #placeholder_desc3{
+    z-index: 8;
+    width: 20vw;
+    top: 20.5vw;
+    left: 69.5vw;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc3{
+    display: none;
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 20vw;
+    left: 69.5vw;
+    transition: 1s;
+}
+#ph_3:hover + #placeholder_desc4{
+    z-index: 8;
+    width: 20vw;
+    top:20vw;
+    left: 79%;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc4{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: none;
+}
+#ph_4:hover + #placeholder_desc5{
+    z-index: 8;
+    width: 20vw;
+    top:40vw ;left: 25%;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc5{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: none;
+}
+#ph_5:hover + #placeholder_desc6{
+    z-index: 8;
+    top:44vw ;left: 22%;
+
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc6{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: none;
+}
+#ph_6:hover + #placeholder_desc7{
+    z-index: 8;
+    width: 20vw;
+    top: 20.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc7{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: none;
+}
+#ph_7:hover + #placeholder_desc8{
+    z-index: 8;
+    width: 20vw;
+    top: 20.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc8{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: none;
+}
+#ph_8:hover + #placeholder_desc9{
+    z-index: 8;
+    width: 20vw;
+    top: 20.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc9{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: none;
+}
+#ph_9:hover + #placeholder_desc10{
+    z-index: 8;
+    width: 20vw;
+    top: 20.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: block;
+}
+#placeholder_desc10{
+    position: absolute;
+    z-index: 8;
+    width: 20vw;
+    top: 14.5vw;
+    left: 0vw;
+    transition: 1s;
+    display: none;
+}
+
 /* ---------------- Home Asset ---------------- */
 
 
