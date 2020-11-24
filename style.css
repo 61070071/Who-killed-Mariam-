@@ -601,8 +601,7 @@ ul {
 #ph_6:hover + #placeholder_desc7{
     z-index: 8;
     width: 20vw;
-    top: 20.5vw;
-    left: 0vw;
+    top:40vw ;left: 30%;
     transition: 1s;
     display: block;
 }
@@ -618,8 +617,7 @@ ul {
 #ph_7:hover + #placeholder_desc8{
     z-index: 8;
     width: 20vw;
-    top: 20.5vw;
-    left: 0vw;
+    top:54vw ;left: 33%;
     transition: 1s;
     display: block;
 }
