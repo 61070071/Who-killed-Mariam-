@@ -197,10 +197,10 @@ $(document).ready(
     }
 );
 function show_page(y) {
-    if (y == 2) {
+    if (y == 1) {
         p2_right.style.display = "block"
     }
-    if (y == 1) {
+    if (y == 2) {
         p2_left.style.display = "block"
     }
 }
