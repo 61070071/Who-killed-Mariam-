@@ -15,7 +15,7 @@ function scrollFunction() {
     }
 }
 function scrollGraph() {
-    if (document.documentElement.scrollTop > 6200) {
+    if (document.documentElement.scrollTop > 6300) {
         document.getElementById("g_1").style.height = 17 + 'vw'
         document.getElementById("g_2").style.height = 25 + 'vw'
         document.getElementById("g_3").style.height = 19 + 'vw'
