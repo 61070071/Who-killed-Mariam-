@@ -431,7 +431,7 @@ ul {
     position: absolute;
     left: 50%;
     top: 20vw;
-    /* animation: mymove 0.7s cubic-bezier(0.42, 0, 0.58, 1.0) 0s infinite alternate both; */
+    animation: mymove 0.7s cubic-bezier(0.42, 0, 0.58, 1.0) 0s infinite alternate both;
     animation-iteration-count: infinite;
 }
 
